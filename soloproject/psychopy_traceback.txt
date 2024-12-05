@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "C:\Program Files\PsychoPy\lib\site-packages\psychopy\app\builder\builder.py", line 604, in closeFrame
+    okToClose = self.fileClose(updateViews=False, checkSave=checkSave)
+  File "C:\Program Files\PsychoPy\lib\site-packages\psychopy\app\builder\builder.py", line 1026, in fileClose
+    ok = self.checkSave()
+  File "C:\Program Files\PsychoPy\lib\site-packages\psychopy\app\builder\builder.py", line 1016, in checkSave
+    if not self.fileSave():
+  File "C:\Program Files\PsychoPy\lib\site-packages\psychopy\app\builder\builder.py", line 814, in fileSave
+    filename = self.exp.saveToXML(filename)
+  File "C:\Program Files\PsychoPy\lib\site-packages\psychopy\experiment\_experiment.py", line 523, in saveToXML
+    with codecs.open(str(filename), 'wb', encoding='utf-8-sig') as f:
+  File "C:\Program Files\PsychoPy\lib\codecs.py", line 905, in open
+    file = builtins.open(filename, mode, buffering)
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SUHANI PANDYA\\AppData\\Local\\Temp\\7675625e-ad24-4c28-9aa5-5c270e72a9d7_mrt-classic-master.zip.9d7\\mrt-classic-master\\mrt.psyexp'
